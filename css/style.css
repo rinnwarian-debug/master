@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #000;
+  overflow: visible;
+}
+
+.anima_block {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 0, 0, 0.482);
+  transition: 2s;
+  animation: ruh 10s infinite;
+}
+
+@keyframes ruh {
+  0% {
+    top: 0;
+    background: #2617b3;
+  }
+  10% {
+    background: #17b34e;
+    top: 5px;
+  }
+  20% {
+    top: 40px;
+    background: #c31e6b;
+  }
+  30% {
+    background: #82a723;
+    top: 80px;
+  }
+  40% {
+    background: #dae911;
+    top: 120px;
+  }
+  50% {
+    background: #02ccfe;
+    top: 160px;
+  }
+  55% {
+    top: 180px;
+    background: #b2e669;
+  }
+  60% {
+    background: #b3174b;
+    top: 220px;
+  }
+  70% {
+    background: #177ab3;
+    top: 250px;
+  }
+  80% {
+    top: 280px;
+    background: rgba(179, 132, 23, 0.6470588235);
+  }
+  90% {
+    top: 310px;
+    background: #9892d0;
+  }
+  100% {
+    background: #03633d;
+    top: 340px;
+  }
+}/*# sourceMappingURL=style.css.map */
